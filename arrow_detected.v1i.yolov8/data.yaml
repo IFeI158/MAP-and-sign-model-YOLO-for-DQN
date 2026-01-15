@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['blue_left', 'blue_right', 'red_left', 'red_right']
+
+roboflow:
+  workspace: 123748712
+  project: arrow_detected
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/123748712/arrow_detected/dataset/1
